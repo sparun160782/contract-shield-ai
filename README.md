@@ -6,7 +6,7 @@ A comprehensive platform for automated contract risk assessment that combines Go
 
 A short walkthrough of the Contract Shield Risk Assessment.
 
-[![Contract Shield Risk Assessment]](https://youtu.be/nfBUR-wUU8c)
+[![Contract Shield Risk Assessment](https://img.youtube.com/vi/WCiHx9okBFE/0.jpg)](https://youtu.be/nfBUR-wUU8c)
 
 ## System Overview
 
