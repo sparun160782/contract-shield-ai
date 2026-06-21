@@ -4,7 +4,7 @@ A comprehensive platform for automated contract risk assessment that combines Go
 
 ## Demo:
 
-A short walkthrough of the Contract Shield Risk Assessment.
+Click on the above video to have A short walkthrough of the Contract Shield Risk Assessment. 
 
 [![Contract Shield AI - Watch the demo](https://img.youtube.com/vi/nfBUR-wUU8c/maxresdefault.jpg)](https://youtu.be/nfBUR-wUU8c?si=XEwHuKb2nwShobsj)
 
