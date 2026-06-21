@@ -1,0 +1,133 @@
+version: 1
+owner: legal-risk
+rules:
+  - rule_id: R001
+    rule_name: Auto Renewal With Long Notice
+    rule_category: Renewal Risk
+    severity_default: High
+    expected_condition: Contracts should not auto-renew without explicit customer
+      approval or short notice period.
+    risky_patterns:
+      - automatically renew
+      - automatically renewed
+      - successive two-year periods
+      - notice of non-renewal not less than one hundred and eighty
+      - renew automatically
+    rationale_template: Clause suggests automatic renewal or an onerous non-renewal notice window.
+    recommended_action: Review renewal controls and negotiate opt-in or shorter notice period.
+
+  - rule_id: R002
+    rule_name: Unlimited Liability
+    rule_category: Liability Risk
+    severity_default: Critical
+    expected_condition: Supplier or processor liability should be capped except for
+      narrow carve-outs.
+    risky_patterns:
+      - unlimited liability
+      - no liability cap
+      - shall have no liability cap
+      - any and all claims losses liabilities damages penalties fees costs and
+        expenses
+    rationale_template: Clause removes or weakens limitation of liability protections.
+    recommended_action: Negotiate balanced liability cap and carve-outs.
+
+  - rule_id: R003
+    rule_name: One-Sided Termination
+    rule_category: Termination Risk
+    severity_default: High
+    expected_condition: Termination rights should be balanced and not require
+      unilateral supplier consent.
+    risky_patterns:
+      - supplier may terminate for convenience
+      - customer may terminate only upon supplier’s written consent
+      - no prepaid fees shall be refunded
+    rationale_template: Clause gives stronger termination flexibility to the
+      counterparty than to the customer.
+    recommended_action: Review mutual termination rights and refund treatment.
+
+  - rule_id: R004
+    rule_name: Weak Confidentiality
+    rule_category: Confidentiality Risk
+    severity_default: Medium
+    expected_condition: Confidentiality should cover reasonably understood
+      confidential information and survive for an adequate period.
+    risky_patterns:
+      - only to information conspicuously marked confidential
+      - expire six (6) months after disclosure
+      - marked confidential at the time of disclosure
+    rationale_template: Confidentiality protection may be too narrow or too short.
+    recommended_action: Expand definition and survival period.
+
+  - rule_id: R005
+    rule_name: Cross-Border Transfer Without Control
+    rule_category: Privacy Risk
+    severity_default: High
+    expected_condition: Personal data transfers must be limited to approved
+      jurisdictions and lawful transfer mechanisms.
+    risky_patterns:
+      - transfer personal data to any country
+      - without further notice
+      - commercially necessary
+    rationale_template: Clause allows broad cross-border transfer without sufficient governance.
+    recommended_action: Require approved transfer mechanisms and controller notice/approval.
+
+  - rule_id: R006
+    rule_name: Weak Security Commitment
+    rule_category: Security Risk
+    severity_default: High
+    expected_condition: Security measures should align with defined standards rather
+      than sole discretion.
+    risky_patterns:
+      - deems appropriate in its sole discretion
+      - maintain safeguards that it deems appropriate
+    rationale_template: Security commitment is discretionary and may lack enforceable standards.
+    recommended_action: Add objective security controls and baseline standards.
+
+  - rule_id: R007
+    rule_name: Delayed Breach Notification
+    rule_category: Security Risk
+    severity_default: High
+    expected_condition: Breach notifications should occur promptly and within a
+      defined short period.
+    risky_patterns:
+      - within fifteen (15) business days
+      - after processor completes its internal investigation
+    rationale_template: Breach notification timing may be too slow for contractual
+      and regulatory obligations.
+    recommended_action: Reduce notification SLA and allow preliminary notices.
+
+  - rule_id: R008
+    rule_name: Restricted Audit Rights
+    rule_category: Compliance Risk
+    severity_default: Medium
+    expected_condition: Customer or controller should retain proportionate audit and
+      assurance rights.
+    risky_patterns:
+      - on-site audits are not permitted
+      - one summary compliance statement per year
+    rationale_template: Audit rights appear constrained.
+    recommended_action: Introduce audit rights or third-party assurance substitutes.
+
+  - rule_id: R009
+    rule_name: Excessive Data Retention
+    rule_category: Privacy Risk
+    severity_default: High
+    expected_condition: Data should be returned or deleted on termination subject to
+      limited legal retention.
+    risky_patterns:
+      - retain personal data for as long as needed for business continuity
+        archival analytics or legal purposes
+    rationale_template: Retention language may be too broad or indefinite.
+    recommended_action: Tighten deletion timelines and permitted retention grounds.
+
+  - rule_id: R010
+    rule_name: Governing Law Outside Preferred Jurisdiction
+    rule_category: Jurisdiction Risk
+    severity_default: Low
+    expected_condition: Governing law should align with approved enterprise legal policy.
+    risky_patterns:
+      - state of new york
+      - delaware
+    rationale_template: Governing law may require legal policy review depending on
+      approved jurisdictions.
+    recommended_action: Validate jurisdiction against legal playbook.
