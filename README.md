@@ -2,6 +2,12 @@
 
 A comprehensive platform for automated contract risk assessment that combines Google Document AI for text extraction, BigQuery for data management, and an ADK agent powered by Gemini for intelligent risk evaluation.
 
+## Demo:
+
+A short walkthrough of the Contract Shield Risk Assessment.
+
+[![Contract Shield Risk Assessment]](https://youtu.be/nfBUR-wUU8c)
+
 ## System Overview
 
 ### Architecture
