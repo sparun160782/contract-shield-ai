@@ -1,0 +1,6 @@
+event_id,contract_id,step_name,status,timestamp,message,batch_id
+EVT-75D156A75581,CTR-0A351C8591CB,extraction,completed,2026-06-14 13:49:40.653104 UTC,Extracted 10 clauses,batch-20260614-134910
+EVT-9603C5F7D13C,CTR-B9F28362B79B,extraction,completed,2026-06-14 13:49:50.769844 UTC,Extracted 9 clauses,batch-20260614-134910
+EVT-EB0A1B729FB2,CTR-4BE8D6DA03B3,extraction,completed,2026-06-14 13:50:03.983845 UTC,Extracted 9 clauses,batch-20260614-134910
+EVT-9237E509615D,CTR-DFAF17A13D74,extraction,completed,2026-06-14 13:50:14.725160 UTC,Extracted 9 clauses,batch-20260614-134910
+EVT-54DBDED84D0B,CTR-B378A05887AA,extraction,completed,2026-06-14 13:50:24.784109 UTC,Extracted 9 clauses,batch-20260614-134910
